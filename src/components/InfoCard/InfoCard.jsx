@@ -13,6 +13,7 @@ export default function InfoCard({ info }) {
 
   return (
     <div className="InfoCard">
+      <span>{'\u007B'}</span>
       <p className="render">"args": {JSON.stringify(info?.args, null, '\t')}</p>
       {keyChecker('data') && (
         <p className="render">
@@ -47,6 +48,7 @@ export default function InfoCard({ info }) {
         "origin": {JSON.stringify(info?.origin, null, '\t')}
       </p>
       <p className="render">"url": {JSON.stringify(info?.url, null, '\t')}</p>
+      <span>{'\u007D'}</span>
     </div>
   );
 }
