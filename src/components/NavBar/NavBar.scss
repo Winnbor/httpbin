@@ -5,8 +5,8 @@
   text-decoration: none;
   color: inherit;
 
-  &:not(:last-child) {
-    margin-right: 1em;
+  &:not(:first-child) {
+    margin-left: 1em;
   }
 
   &:hover {
@@ -15,5 +15,11 @@
 
   &--active {
     color: orangered;
+  }
+
+  @media screen and (min-width: 420px) {
+    &:first-child {
+      margin-right: 3em;
+    }
   }
 }

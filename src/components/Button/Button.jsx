@@ -7,7 +7,7 @@ export default function Button({ onClick, identifier }) {
       type="button"
       onClick={() => onClick(identifier)}
     >
-      {identifier}
+      Make request {identifier}
     </button>
   );
 }
