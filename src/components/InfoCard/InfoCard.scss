@@ -1,14 +1,27 @@
 .InfoCard {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
 
   padding: 0.5rem;
   margin-bottom: 1rem;
 
   border: 1px solid #cccbcb;
   border-radius: 4px;
+
+  p {
+    margin: 0;
+  }
 }
 
 .render {
   white-space: break-spaces;
+}
+
+.toggler-btn {
+  padding: 0;
+  width: 18px;
+  height: 18px;
+
+  background-color: transparent;
+  border: none;
 }
