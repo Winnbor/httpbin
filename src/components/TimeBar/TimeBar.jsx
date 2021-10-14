@@ -1,9 +1,9 @@
 import './TimeBar.scss';
 
-export default function TimeBar() {
+export default function TimeBar({ time }) {
   return (
     <div className="TimeBar">
-      <p>Time</p>
+      <p>Request was made: {time}</p>
     </div>
   );
 }
