@@ -1,14 +1,10 @@
-import Button from 'components/Button/Button';
-import InfoCard from 'components/InfoCard/InfoCard';
-import TimeBar from 'components/TimeBar/TimeBar';
+import InfoHub from 'components/InfoHub/InfoHub';
 
 export default function DeleteView() {
   return (
     <div>
       <h1>Delete</h1>
-      <Button />
-      <InfoCard />
-      <TimeBar />
+      <InfoHub />
     </div>
   );
 }
